@@ -36,7 +36,7 @@
 <!-- ZIEL DES PROJEKTS -->
 <h1>Ziel des Projekts</h1>
 
-Um eine verlässliche Bewertung zu gewährleisten, benötigen wir sowohl eine präzise Metrik, die eng mit menschlichen Urteilen korreliert, als auch eine Sammlung hochwertiger Referenzübersetzungen, um die Metrik zu validieren. Aus diesem Grund haben wir, das Mittelstand Digital Zentrum Franken, in Zusammenarbeit mit der Nureg GmbH aus Nürnberg, ein innovatives Digitalisierungsprojekt ins Leben gerufen. In diesem Projekt wurden verschiedene Metriken hinsichtlich ihrer Eignung zur Bewertung von Similarity und Readability untersucht. Die vielversprechendsten Metriken haben wir in dem Jupyter Notebook [Jupyter Notebook „Qualitätsprüfung“](https://github.com/sandra1512/EvaluationOfTranslation/blob/main/Qualitaetspruefung.ipynb) zusammengefasst.
+Um eine verlässliche Bewertung zu gewährleisten, benötigen wir sowohl eine präzise Metrik, die eng mit menschlichen Urteilen korreliert, als auch eine Sammlung hochwertiger Referenzübersetzungen, um die Metrik zu validieren. Aus diesem Grund haben wir, das Mittelstand Digital Zentrum Franken, in Zusammenarbeit mit der Nureg GmbH aus Nürnberg, ein innovatives Digitalisierungsprojekt ins Leben gerufen. In diesem Projekt wurden verschiedene Metriken hinsichtlich ihrer Eignung zur Bewertung von Similarity und Readability untersucht. Die vielversprechendsten Metriken haben wir in dem Jupyter Notebook [Jupyter Notebook „Qualitätsprüfung“](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Qualitaetspruefung.ipynb) zusammengefasst.
 
 
 <br>
