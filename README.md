@@ -47,27 +47,19 @@ Um eine verlässliche Bewertung zu gewährleisten, benötigen wir sowohl eine pr
 
 ### Inhalt
 
-<ol>
-  <li>Stringbasierte Metriken</li>
-    <ol>
-      <li>BLEU</li>
-      <li>ChrF</li>
-    </ol>
-  </li>
-  <li>Deep Learninge basierte Metriken
-    <ol>
-      <li>Bert Score</li>
-      <li>mBert</li>
-      <li>Comet</li>
-    </ol>
-  </li>
-  <li>Sprachmodell als Evaluator
-    <ol>
-      <li>BERT</li>
-      <li>GPT</li>
-    </ol>
-  </li>
-</ol>
+1. Stringbasierte Metriken
+    1. [BLEU](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Research/BLEU.ipynb)
+    2. [ChrF](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Research/ChrF.ipynb)
+
+2. Deep Learning basierte Metriken
+    1. [Bert Score](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Research/BertScore.ipynb)
+    2. [mBert](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Research/mBert.ipynb)
+    3. [Comet](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Research/Comet.ipynb)
+
+3. Sprachmodell als Evaluator
+    1. [Textstat mit BERT Embedding](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Research/Textstat.ipynb)
+    2. [GPT](https://github.com/Mittelstand-Digital-Zentrum-Franken/EvaluationOfTranslation/blob/main/Research/GPT.ipynb)
+
 
 
 <br>
