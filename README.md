@@ -96,38 +96,23 @@ Um die Qualitätsprüfung mithilfe von GPT von OPEN AI durchführen zu können m
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ERKENNTNISSE -->
-<h1>Erkenntnisse</h1>
+# Erkenntnisse
+
+Im Zuge der explorativen Analyse zur Bewertung der Übersetzungsqualität haben wir uns auf drei verschiedene Methoden konzentriert: Similarity, Readability und die grammatikalische Prüfung.
 
 ### Similarity
-
+Die [Similarity](https://ashukumar27.medium.com/similarity-functions-in-python-aa6dfe721035) gibt uns einen Anhaltspunkt dafür, wie stark zwei Texte oder Textabschnitte inhaltlich übereinstimmen. Diese Metrik ist besonders hilfreich, um zu sehen, ob Texte semantisch verwandt sind oder ob sie mehr oder weniger dasselbe ausdrücken. Dabei kommen verschiedene Algorithmen wie der Kosinus-Ähnlichkeitswert zum Einsatz, um diese Ähnlichkeit in Zahlen zu fassen.
 
 ### Readability
-Die <a href="https://readabilityformulas.com/how-to-decide-which-readability-formula-to-use/">Readability</a> spielt eine bedeutende Rolle.
+Die [Readability](https://readabilityformulas.com/how-to-decide-which-readability-formula-to-use/) oder Lesbarkeit zeigt uns, wie einfach ein Text zu lesen und zu verstehen ist. Faktoren wie Satzlänge, Wortlänge und die Komplexität des Wortschatzes spielen hier eine Rolle. Durch den Einsatz der Textstat-Library konnten wir diese Lesbarkeits-Scores automatisch berechnen und vergleichen, was uns geholfen hat, die Verständlichkeit der Texte objektiv zu bewerten.
 
-| Score                            | Geeignet für                          | Fokus                              | Herangehensweise                                                         |
-|----------------------------------|---------------------------------------|------------------------------------|--------------------------------------------------------------------------|
-| Dale-Chall Readability Formula   | Allgemeine Leserschaft                | Wortvertrautheit                   | Verwendet eine Liste vertrauter Wörter zur Bewertung der Schwierigkeit   |
-| Spache Readability Formula       | Primarschultexte                      | Wortfrequenz und Satzlänge         | Gut für niedrigere Schulstufen geeignet                                  |
-| SMOG Readability Formula         | Allgemeine Geschäftsdokumente         | Grammatik, Syntax und Wortwahl     | Bezieht grammatische Schwierigkeit ein                                   |
-| Flesch Reading Ease              | Breites Spektrum, einschließlich Bildungstexte | Satzlänge und Wortsilben  | Liefert einen Wert, der die Lesbarkeit angibt                            |
-| Gunning Fog Index                | Geschäfts- und Fachtexte              | Wortkomplexität und Satzlänge      | Ideal zur Analyse von Materialien der Oberstufe                          |
-| Fry Graph                        | Bildungstexte und Dokumente           | Satz- und Silbenzählung pro 100 Wörter | Visuelles Werkzeug zur Bewertung der Lesbarkeit                      |
-| Coleman-Liau Readability Formula | Notenstufenbewertung                  | Zeichenzählung                     | Fokussiert auf Zeichen anstelle von Silben zur Einschätzung der Lesbarkeit |
-| McAlpine EFLAW                   | Englisch als Fremdsprache             | Wortvertrautheit und Struktur      | Entwickelt für nicht-muttersprachliche Englischlerner                    |
-| Automated Readability Index (ARI)| Allgemeine Leserschaft                | Zeichen pro Wort und Wörter pro Satz | Liefert eine Notenstufenbewertung für Lesbarkeit                       |
-| Flesch-Kincaid                   | Breites Spektrum, einschließlich militärischer Dokumente | Satzlänge und Silbenzahl   | Häufig im US-amerikanischen Bildungssystem verwendet          |
-| FORCAST                          | Militär- und technische Handbücher    | Häufigkeit einsilbiger Wörter      | Entwickelt für nicht-narrative Materialien                               |
-| Linsear Write                    | Englische Texte für Nicht-Muttersprachler | Satz- und Wortlänge            | Einfaches Berechnungsverfahren                                           |
-| Raygor Estimate Graph            | Breites Spektrum, einschließlich Lehrbücher | Satzlänge und Wortanzahl     | Bietet eine visuelle Lesbarkeitsschätzung                                |
-| Laesbarhedsindex (LIX)           | Schwedische Texte                     | Wort- und Satzlänge                | Berechnet die Lesbarkeit für schwedische Texte                           |
+### Grammatikalische Prüfung
+Für die grammatikalische Prüfung gibt es in Python mehrere nützliche Tools. Eines der bekanntesten ist [LanguageTool](https://pypi.org/project/language-tool-python/), das eine breite Palette von Grammatikfehlern, Stilproblemen und Rechtschreibfehlern erkennen kann. Zusätzlich bietet Gingerit eine einfache Möglichkeit zur Grammatik- und Rechtschreibprüfung. Auch SpaCy und nltk haben zwar nicht primär den Fokus auf Grammatikprüfungen, bieten aber dennoch wertvolle Funktionen für die Textanalyse, die wir in komplexeren NLP-Prozessen einsetzen können, um die grammatische Korrektheit zu überprüfen.
+
+### Named Entity Recognition
+[SpaCy](https://spacy.io/) ist eine leistungsstarke Bibliothek für die Verarbeitung natürlicher Sprache in Python. Neben vielen anderen Funktionen bietet es auch die Named Entity Recognition (NER), mit der wir spezifische Entitäten wie Personen, Orte oder Organisationen in einem Text automatisch identifizieren und kategorisieren können. Diese Methode hilft uns dabei festzustellen, ob bestimmte Begriffe korrekt übersetzt wurden oder ob Übersetzungsfehler vorliegen, weil solche Entitäten nicht richtig erkannt wurden.
 
 
-
-
-
-
-Alle Unteruschung sind in dem JN "Textstat" zu finden.
-In Qualitätsprüfung werden die passenden zusammengeführt.
 
 
 
