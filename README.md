@@ -100,7 +100,7 @@ Um die Qualitätsprüfung mithilfe von GPT von OPEN AI durchführen zu können m
 
 Im Zuge der explorativen Analyse zur Bewertung der Übersetzungsqualität haben wir uns auf drei verschiedene Methoden konzentriert: Similarity, Readability und die grammatikalische Prüfung.
 
-<img src="images/Results.png" alt="Results" width="500">
+<img src="images/Results.png" alt="Results" width="1000">
 
 ### Similarity
 Die [Similarity](https://ashukumar27.medium.com/similarity-functions-in-python-aa6dfe721035) gibt uns einen Anhaltspunkt dafür, wie stark zwei Texte oder Textabschnitte inhaltlich übereinstimmen. Diese Metrik ist besonders hilfreich, um zu sehen, ob Texte semantisch verwandt sind oder ob sie mehr oder weniger dasselbe ausdrücken. Dabei kommen verschiedene Algorithmen wie der Kosinus-Ähnlichkeitswert zum Einsatz, um diese Ähnlichkeit in Zahlen zu fassen.
