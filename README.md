@@ -151,6 +151,14 @@ Für die grammatikalische Prüfung gibt es in Python mehrere nützliche Tools. E
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- LICENSE -->
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<br />
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- PARTNER -->
 <h1>Partner</h1>
 <img src="images/Partner.png" alt="Logos">
